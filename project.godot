@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="Drag And Drop Test"
-run/main_scene="res://world.tscn"
+run/main_scene="res://Scenes and Scripts/World/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [autoload]
 

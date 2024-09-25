@@ -14,4 +14,3 @@ func _process(_delta):
 		visible = false
 
 
-## yooooo

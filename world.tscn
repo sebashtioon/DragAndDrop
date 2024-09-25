@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://yo3hnm28xw3v"]
+
+[ext_resource type="PackedScene" uid="uid://dhhjltxmoydio" path="res://Slot.tscn" id="1_chp4h"]
+[ext_resource type="PackedScene" uid="uid://crd54gkl3wiew" path="res://object.tscn" id="2_quo81"]
+
+[node name="world" type="Node2D"]
+
+[node name="Slot" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(261, 111)
+
+[node name="Slot2" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(444, 111)
+
+[node name="Slot3" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(633, 112)
+
+[node name="Slot4" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(158, 307)
+
+[node name="Slot5" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(341, 307)
+
+[node name="Slot6" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(530, 308)
+
+[node name="Slot7" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(308, 514)
+
+[node name="Slot8" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(491, 514)
+
+[node name="Slot9" parent="." instance=ExtResource("1_chp4h")]
+position = Vector2(680, 515)
+
+[node name="object" parent="." instance=ExtResource("2_quo81")]
+position = Vector2(1019, 478)
